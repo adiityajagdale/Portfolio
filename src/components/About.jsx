@@ -10,8 +10,7 @@ function About() {
     ];
 
     return (
-        <div className="flex flex-col items-center h-screen px-3 md:px-4 py-8">
-            <span className="text-lg mb-2 block">Get to know more</span>
+        <div id="about-me" className="flex flex-col items-center h-screen px-3 md:px-4 py-8">
             <h1 className="text-4xl md:text-7xl font-bold text-gray-800 mb-10 text-center">About Me</h1>
 
             {/* Grid layout for Education and About Content */}

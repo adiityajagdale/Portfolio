@@ -46,7 +46,7 @@ I specialize in creating dynamic and user-friendly applications using modern tec
 
 Feel free to reach out if you have any questions or would like to collaborate!
 
-- **Email**: [adityaa@gmail.com](mailto:adityaa@gmail.com)
+- **Email**: [adityaa@gmail.com](mailto:adityaajagdale@gmail.com)
 - **LinkedIn**: [Aditya Jagdale](https://www.linkedin.com/in/aditya-jagdale-5b39a62a2/)
 - **GitHub**: [adiityajagdale](https://github.com/adiityajagdale)
 - **Instagram**: [adityajagdale_](https://instagram.com/adityajagdale_)

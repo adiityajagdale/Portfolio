@@ -2,14 +2,14 @@ import React from "react";
 
 function Experience() {
     return (
-        <div className="flex justify-center items-center h-auto px-3 md:px-4">
+        <div id="experience" className="flex justify-center min-h-screen  items-center h-auto px-3 md:px-4">
             <div className="text-center py-16 w-full md:max-w-4xl">
                 <span className="text-lg mb-2 block">Explore My</span>
                 <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-10">Skills</h1>
                 {/* Grid Layout for Frontend and Backend Sections */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-3 md:mx-auto">
                     {/* Frontend Section */}
-                    <div className="bg-gray-100 p-4 md:p-8 rounded-3xl shadow-lg border border-gray-300">
+                    <div className="bg-gray-100 p-4  md:p-8 rounded-3xl shadow-lg border border-gray-300">
                         <h2 className="text-2xl font-bold mb-4">Frontend</h2>
                         <ul className="grid grid-cols-1 md:grid-cols-2 list-none gap-y-4 p-2 md:p-3">
                             {['React.js', 'JavaScript', 'HTML/CSS', 'Java'].map((skill, index) => (

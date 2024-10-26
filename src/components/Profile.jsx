@@ -3,7 +3,7 @@ import React from "react";
 function Profile() {
     return (
         <>
-            <div className="grid h-screen m-8 grid-cols-1 md:grid-cols-2 items-center">
+            <div id="home" className="grid h-screen m-8 grid-cols-1 md:grid-cols-2 items-center">
                 {/* Image Section */}
                 <div className="flex justify-center items-center">
                     <img
@@ -19,12 +19,25 @@ function Profile() {
                     <h2 className="text-4xl font-bold text-center p-2">Aditya Jagdale</h2>
                     <p className="text-3xl font-bold text-gray-600 text-center">Full-Stack Developer</p>
                     <div className="mt-3 flex space-x-3">
-                        <button className="flex items-center text-black font-bold border-2 border-black py-2 px-4 rounded-full hover:bg-gray-600">
-                            Get Resume <span className="w-4 h-4 display ml-2"> <img src="src\Assets\downloads.png" ></img> </span>
-                        </button>
-                        <button className="flex items-center bg-gray-800 font-bold text-white py-2 px-4 rounded-full hover:bg-gray-600">
-                            Contact Info<span className="w-5 h-5 display ml-2"> <img src="src\Assets\info (1).svg" ></img> </span>
-                        </button>
+                        <a
+                            href="src/Assets/AdiResume.pdf" // Replace with your actual resume file path
+                            target="_blank" // Opens the file in a new tab
+                            rel="noopener noreferrer" // Security best practice for external links
+                            className="flex items-center text-black font-bold border-2 border-black py-2 px-4 rounded-full hover:bg-gray-600"
+                        >
+                            Get Resume
+                            <span className="w-4 h-4 display ml-2">
+                                <img src="src/Assets/downloads.png" alt="Download Icon" />
+                            </span>
+                        </a>
+
+                        <a href="#about-me" className="flex items-center bg-gray-800 font-bold text-white py-2 px-4 rounded-full hover:bg-gray-600">
+                            Contact Info
+                            <span className="w-5 h-5 display ml-2">
+                                <img src="src/Assets/info (1).svg" alt="Info" />
+                            </span>
+                        </a>
+
                     </div>
                 </div>
             </div>

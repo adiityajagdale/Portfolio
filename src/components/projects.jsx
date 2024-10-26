@@ -41,7 +41,8 @@ function ProjectCard({ title, imageSrc, githubLink }) {
 
 function Projects() {
     return (
-        <div className="flex flex-col items-center h-auto px-3 md:px-4">
+        
+        <div id="projects" className="flex flex-col min-h-screen mt-4  items-center h-auto px-3 md:px-4">
             <span className="text-lg mb-2 block">Explore My Recent Projects</span>
             <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-10">Projects</h1>
 
